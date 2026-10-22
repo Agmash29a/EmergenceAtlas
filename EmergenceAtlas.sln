@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergenceAtlas.Core", "src\EmergenceAtlas.Core\EmergenceAtlas.Core.csproj", "{A60F5CF8-D432-47AB-9A1D-917543024953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergenceAtlas.Cli", "src\EmergenceAtlas.Cli\EmergenceAtlas.Cli.csproj", "{2D906D3C-53B9-488C-BAD6-55DFF00EB478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergenceAtlas.Tests", "tests\EmergenceAtlas.Tests\EmergenceAtlas.Tests.csproj", "{A23322A0-B4D9-4CED-8256-7C79E070A639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60F5CF8-D432-47AB-9A1D-917543024953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60F5CF8-D432-47AB-9A1D-917543024953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60F5CF8-D432-47AB-9A1D-917543024953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60F5CF8-D432-47AB-9A1D-917543024953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D906D3C-53B9-488C-BAD6-55DFF00EB478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D906D3C-53B9-488C-BAD6-55DFF00EB478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D906D3C-53B9-488C-BAD6-55DFF00EB478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D906D3C-53B9-488C-BAD6-55DFF00EB478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23322A0-B4D9-4CED-8256-7C79E070A639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23322A0-B4D9-4CED-8256-7C79E070A639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23322A0-B4D9-4CED-8256-7C79E070A639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23322A0-B4D9-4CED-8256-7C79E070A639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
